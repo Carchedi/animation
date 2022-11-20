@@ -1,17 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+} 
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +13,73 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.acerto {
+  width: 100px;
+  height: 100px; 
+  top: 180px;
+  left: 740px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 30px;
+  opacity: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.erro {
+  width: 100px;
+  height: 100px; 
+  top: 180px;
+  left: 740px;
+  position: absolute;
+  border-radius: 10px;
+  margin: 30px;
+  opacity: 0;
 }
+
+.move-a{
+  animation: moveltr 0.8s;
+} 
+
+@keyframes moveltr {
+  0%    {opacity: 0;} 
+  100%  {opacity: 1;} 
+}
+ 
+
+/* CSS */
+
+.button-green{
+  background-color: #2ea44f;
+}
+
+.button-red{
+  background-color: #b90e0e;
+}
+.button-3 {
+  appearance: none;
+  width: 80px;
+  margin: 20px;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;  
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+ 
