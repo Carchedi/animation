@@ -1,3 +1,4 @@
+import logo  from './logo.svg';
 import check from './checkmark.svg';
 import wrong from './wrong.svg';
 import './App.css';
@@ -26,13 +27,13 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">            
-        <img src={check} className="defaultImage acerto" alt="logo"  /> 
+      <header className="App-header">             
+        <img src={check} className="defaultImage acerto" alt="acerto" /> 
         <img src={wrong} className="defaultImage erro" alt="erro" />
-          <div>
-            <button class="button-default button-green" onClick={animate}>Acerto</button>
-            <button class="button-default button-red"   onClick={error}>Erro</button>
-          </div>
+        <div>
+          <button class="button-default button-green" onClick={animate}>Acerto</button>
+          <button class="button-default button-red"   onClick={error}>Erro</button>
+        </div>
       </header>
     </div>
   );
