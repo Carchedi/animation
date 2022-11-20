@@ -16,9 +16,10 @@
 .acerto {
   width: 100px;
   height: 100px; 
-  top: 180px;
-  left: 740px;
-  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 50%; 
   border-radius: 10px;
   margin: 30px;
   opacity: 0;
@@ -27,9 +28,10 @@
 .erro {
   width: 100px;
   height: 100px; 
-  top: 180px;
-  left: 740px;
-  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 50%; 
   border-radius: 10px;
   margin: 30px;
   opacity: 0;
