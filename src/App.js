@@ -27,11 +27,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">            
-        <img src={check} className="acerto" alt="logo" /> 
-        <img src={wrong} className="erro" alt="erro" />
+        <img src={check} className="defaultImage acerto" alt="logo"  /> 
+        <img src={wrong} className="defaultImage erro" alt="erro" />
           <div>
-            <button class="button-3 button-green" onClick={animate}>Acerto</button>
-            <button class="button-3 button-red"   onClick={error}>Erro</button>
+            <button class="button-default button-green" onClick={animate}>Acerto</button>
+            <button class="button-default button-red"   onClick={error}>Erro</button>
           </div>
       </header>
     </div>

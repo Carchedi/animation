@@ -13,27 +13,25 @@
   color: white;
 }
 
-.acerto {
-  width: 100px;
-  height: 100px; 
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width: 50%; 
+.defaultImage{
+  width: 150px;
+  height: 150px; 
+  position: absolute;
+  margin: auto;  
   border-radius: 10px;
   margin: 30px;
+  opacity: 0; 
+  display: flex;
+  top: 20%;
+  align-items: center;
+  justify-content: center;  
+}
+
+.acerto { 
   opacity: 0;
 }
 
-.erro {
-  width: 100px;
-  height: 100px; 
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width: 50%; 
-  border-radius: 10px;
-  margin: 30px;
+.erro { 
   opacity: 0;
 }
 
@@ -56,7 +54,7 @@
 .button-red{
   background-color: #b90e0e;
 }
-.button-3 {
+.button-default {
   appearance: none;
   width: 80px;
   margin: 20px;
@@ -79,9 +77,3 @@
   vertical-align: middle;
   white-space: nowrap;
 }
-
-.button-3:focus:not(:focus-visible):not(.focus-visible) {
-  box-shadow: none;
-  outline: none;
-}
- 
