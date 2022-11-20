@@ -1,4 +1,3 @@
-import logo  from './logo.svg';
 import check from './checkmark.svg';
 import wrong from './wrong.svg';
 import './App.css';
